@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@200;300;500;600;700;800;900&family=Righteous&family=Roboto&family=Sarala:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.seção-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: #FFBAA1;
+    height: 715px;
+}
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFBAA1;
+    
+}
+.logo {
+    margin-top: 75px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 62px;
+    margin-top: 94px;
+}
+.menu a {
+    padding: 12px;
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover {
+    background-color: #e7a993;
+    border-radius: 8px;
+    transition: 400ms linear;
+
+}
+.botão {
+    color: #ffffff;
+    background-color: #110ACD;
+    font-family:'Roboto', sans-serif;
+    font-size: 17px;
+    width: 121px;
+    height: 42px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.botão:hover {
+    background-color: #110c9a;
+    transition: 400ms linear;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align: right;
+    gap: 7px;
+}
+.texto-1 {
+    margin-top: 82px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    text-align: right;
+}    
+.imagem {
+    margin-top: 92px;
+}
+.botoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: -90px;
+}
+
+.seção-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+
+.texto-seção-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+}
+.texto-2 {
+    font-family: Nunito;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: left;
+    width: 595px;
+    line-height: 57.29px;
+}
+.texto-3 {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 22px;
+    text-align: left;
+    width: 595px;
+    line-height: 39.31px;
+}
+.botão-video {
+    margin-top: 50px;
+    height: 87px;
+    width: 440px;
+    border: none;
+    border-radius: 6px;
+}
+.texto-4 {
+    font-family: Nunito;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 57px;
+    text-align: center;
+}
+.comentários {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 75px;
+    margin-top: 40px;
+}
+.comentário {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.personagens {
+    display: flex;
+    justify-content: center;
+    margin-top: 136px;
+    margin-bottom: 52px;
+}
+
+.rodapé {
+    background-color: #FFBAA1;
+    height: 345px;
+}
